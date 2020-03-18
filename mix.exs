@@ -19,7 +19,8 @@ defmodule BebopAlice.MixProject do
         Alice, %{
           handlers: [
             Alice.Handlers.Roller,
-            Alice.Handlers.GoodMorningLanguages
+            Alice.Handlers.GoodMorningLanguages,
+            Alice.Handlers.Karma
           ]
         }
       }
@@ -31,7 +32,8 @@ defmodule BebopAlice.MixProject do
     [
       {:alice,              "~> 0.3.7"},
       {:alice_roller,       "~> 0.2"},
-      {:alice_good_morning, "~> 1.0"}
+      {:alice_good_morning, "~> 1.0"},
+      {:alice_karma,        "~> 0.3.5"}
     ]
   end
 end
