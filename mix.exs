@@ -31,7 +31,7 @@ defmodule BebopAlice.MixProject do
   defp deps do
     [
       {:alice,              "~> 0.3.7"},
-      {:alice_roller,       "~> 0.2"},
+      {:alice_roller,       "~> 0.2.2"},
       {:alice_good_morning, "~> 1.0"},
       {:alice_karma,        "~> 0.3.5"}
     ]
