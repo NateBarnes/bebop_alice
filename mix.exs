@@ -35,7 +35,7 @@ defmodule BebopAlice.MixProject do
       {:alice_roller,       "~> 0.3.0"},
       {:alice_good_morning, "~> 1.0"},
       {:alice_karma,        "~> 0.3.5"},
-      {:jedi_alice,         "~> 0.1.0"}
+      {:jedi_alice,         "~> 0.1.1"}
     ]
   end
 end
